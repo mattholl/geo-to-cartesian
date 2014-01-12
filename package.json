@@ -1,0 +1,16 @@
+{
+  "name": "geo-to-cartesian",
+  "version": "0.0.0",
+  "description": "A transform stream to convert latitude and longditude (φ,λ) into Cartesian coordinates [x,y,z].",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec"
+  },
+  "keywords": ["geographic","coordinates","converter","stream"],
+  "devDependencies": {
+    "mocha": "*",
+    "JSONStream" : "0.7.1"
+  },
+  "author": "@mttholl",
+  "license": "BSD"
+}
