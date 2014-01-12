@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "description": "A transform stream to convert latitude and longditude (φ,λ) into Cartesian coordinates [x,y,z].",
   "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/mattholl/geo-to-cartesian"
+  },
+  "homepage" : {
+    "url" : "http://github.com/mattholl/geo-to-cartesian"
+  },
   "scripts": {
     "test": "mocha -u bdd -R spec"
   },
