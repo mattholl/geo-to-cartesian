@@ -12,11 +12,11 @@ Pipe in some geographic coordinates
 
 ```javascript
 
-var geoToCart = require('../index.js');
+var geoToCart = require('geo-to-cartesian');
 
-var geoCoordTextStream = fs.createReadStream(__dirname + '/data.txt');
+var geoCoordTextStream = fs.createReadStream('data.txt');
 
-geo.pipe(geoToCart).pipe();
+geo.pipe(geoToCart).pipe(outputStream);
 
 ```
 
