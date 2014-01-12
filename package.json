@@ -1,6 +1,6 @@
 {
   "name": "geo-to-cartesian",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A transform stream to convert latitude and longditude (φ,λ) into Cartesian coordinates [x,y,z].",
   "main": "index.js",
   "repository": {
